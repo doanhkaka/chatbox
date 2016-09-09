@@ -17,6 +17,9 @@ $( document ).ready(function() {
 				sendMessage();
 			}
 		});
+		$("#btnSend").click(function(){
+			sendMessage();
+		});
 
 		function sendMessage() {
 			var n = $.trim($("#fullName").val());
